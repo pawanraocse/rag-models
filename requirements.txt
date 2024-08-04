@@ -1,0 +1,12 @@
+python-dotenv
+langchain
+openai
+langchain_community
+requests
+jupyter
+langchain-openai
+pypdf
+docarray
+pytube
+git+https://github.com/openai/whisper.git
+yt-dlp

@@ -1,0 +1,15 @@
+services:
+  ollama:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ollama
+    volumes:
+      - ollama:/root/.ollama
+      - ./src:/app/src
+    ports:
+      - "11434:11434"
+      - "8888:8888"
+
+volumes:
+  ollama:
